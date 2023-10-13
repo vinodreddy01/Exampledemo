@@ -15,5 +15,9 @@ public class HelloWorldController {
 	public String hi() {
 		return "welcome";
 	}	
+@GetMapping("/Vin")
+	public String hello() {
+		return "Updated vinod reddy";
+	}
+	}
 
-}
